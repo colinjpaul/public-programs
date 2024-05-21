@@ -84,7 +84,7 @@ del df_all['time']
 
 # In[266]:
 
-
+#test
 #Put the interval you want to take the average of the imported data from fitbit with 2-5 sec interval. Default 10 minute
 summary_df = (df_all['value'].resample('10Min').mean())
 
